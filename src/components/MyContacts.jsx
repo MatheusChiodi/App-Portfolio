@@ -40,7 +40,7 @@ export default function MyContacts() {
     >
       {contact.map((contact, index) => (
         <Animated.View
-          key={contact.name}
+          key={index}
           style={{
             opacity: opacityAnims[index],
           }}
